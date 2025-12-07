@@ -1,16 +1,37 @@
-# React + Vite
+🌐 360AIRO – Email Marketing Platform (Frontend Redesign Assessment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete UI/UX redesign and frontend implementation of an email marketing platform.
+This project was developed as part of a technical assignment and demonstrates strong skills in React, component-based architecture, and modern UI design.
+🚀 Project Highlights
+✔ Modern UI Redesign
 
-Currently, two official plugins are available:
+Redesigned the provided UI into a clean, consistent, and professional interface using custom CSS and reusable components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔ Component-Based Architecture
 
-## React Compiler
+Built with modular, maintainable components:
+1.Button
+2.Card
+3.Input
+4.Sidebar
+5.Header
+6.StepIndicator
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+AIChatbot (concept UI)
 
-## Expanding the ESLint configuration
+✔ Key Pages Implemented
+1.Analytics Dashboard
+2.Contacts List Page
+3.Email Lists Dashboard
+4.Email Accounts Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Campaign Creation (3-step wizard)
+✔ AI Chatbot (Concept UI)
+
+A floating assistant for strategy suggestions and content drafting, built as a UI-only feature.
+🧩 Tech Stack
+1.React.js (Vite)
+2.React Router DOM
+3.Pure CSS (no Tailwind/Bootstrap)
+4.Mock Data for UI demonstration
+5.Reusable Components + Layouts
