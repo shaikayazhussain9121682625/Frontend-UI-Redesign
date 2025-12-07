@@ -1,0 +1,32 @@
+/* src/components/FormElements/Input.css */
+.form-group {
+    margin-bottom: var(--space-md);
+}
+
+.form-group label {
+    display: block;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-xs);
+    font-size: 0.9em;
+}
+
+.custom-input {
+    width: 100%;
+    padding: var(--space-sm);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-size: 1em; /* Ensure size consistency */
+}
+
+.custom-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.required-star {
+    color: var(--error-color);
+    margin-left: 2px;
+}

@@ -1,0 +1,18 @@
+/* src/components/Card/Card.css */
+.card {
+  background-color: var(--bg-white);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-md);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+  color: var(--text-color);
+  font-size: 1.1em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-sm);
+}
